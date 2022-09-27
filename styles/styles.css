@@ -5,7 +5,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-left:36%;
-  padding-top:4rem;
+  padding-top:3.5rem;
   }
   
   .card{
@@ -26,14 +26,25 @@ body{
       margin: 0 auto;
       margin-bottom: 10px; 
   }
-  
+
+  ::placeholder {
+    color: #1e225c75; 
+    position:relative;
+    left: 30px;
+    top: 0px;
+    padding: 0 10px;
+  }
+   .input:focus {
+    border-color: #8A6FF7;
+   }
+
   .cb{
       background-color: rgba(225, 225, 225, 0.651);
   }
   
   .btn{
       border-radius: 2rem;
-      color: #8A6FF7;
+      color: #0611b4;
       font-family: georgia,garamond,serif;
   }
   
@@ -42,10 +53,17 @@ body{
   }
   
   .card-text{
-      color:#8A6FF7;
+      color:#0611b4;
   }
   
   img{
       width: 70%;
       
+  }
+
+  .input{
+    padding-bottom:5px;
+    margin-bottom:12px; 
+    font-family:georgia,garamond,serif;
+    border-color: #8A6FF7;
   }
